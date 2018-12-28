@@ -1,0 +1,16 @@
+package com.imc.springboot_freemarker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan("com.imc")
+public class SpringbootFreemarkerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootFreemarkerApplication.class, args);
+	}
+
+}
+
